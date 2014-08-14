@@ -1,14 +1,6 @@
 
 *.o
 
-modules/msg/test/testmsg
-
-projects/sim/sim
-
-projects/stm32/MDK-ARM/lst/*
-
-projects/stm32/MDK-ARM/obj/*
-
 *.dep
 
 projects/stm32/MDK-ARM/project.uvgui.*
