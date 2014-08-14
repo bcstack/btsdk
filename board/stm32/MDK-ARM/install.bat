@@ -1,0 +1,1 @@
+copy .\obj\board.lib ..\..\..\workspace\build

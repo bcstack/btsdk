@@ -1,0 +1,1 @@
+copy .\obj\mcu.lib ..\..\..\workspace\build

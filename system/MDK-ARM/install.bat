@@ -1,0 +1,1 @@
+copy .\obj\system.lib ..\..\workspace\build
