@@ -18,7 +18,6 @@ SRCS = \
 	$(ROOT)/bluetooth/src/rfcomm.c \
 	$(ROOT)/bluetooth/src/sdp.c \
 	$(ROOT)/bluetooth/src/spp_sdp.c \
-	$(ROOT)/bluetooth/src/spp.c \
 	$(ROOT)/bluetooth/src/hci-usb.c
 
 OBJS = $(SRCS:.c=.o)

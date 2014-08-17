@@ -525,11 +525,6 @@
           <GroupName>user</GroupName>
           <Files>
             <File>
-              <FileName>stm32f0xx_it.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\user\src\stm32f0xx_it.c</FilePath>
-            </File>
-            <File>
               <FileName>syscfg_stm32f0xx.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\user\src\syscfg_stm32f0xx.c</FilePath>

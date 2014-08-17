@@ -229,6 +229,7 @@ void HAL_RCC_DeInit(void)
   * @note   The PLL is not disabled when used as system clock.
   * @retval HAL status
   */
+#if 0
 __weak HAL_StatusTypeDef HAL_RCC_OscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct)
 {
   /* Note : This function is defined into this file for library reference.  */
@@ -238,6 +239,7 @@ __weak HAL_StatusTypeDef HAL_RCC_OscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruc
   /* Return error status as not implemented here */
   return HAL_ERROR;
 }
+#endif
 
 /**
   * @brief  Initializes the CPU, AHB and APB busses clocks according to the specified

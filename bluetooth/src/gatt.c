@@ -103,7 +103,7 @@ void gatt_input(u8* input, u16 isize)
         gatt.start_handle = bt_read_u16(input + 1);
         if (gatt.start_handle == 3) {
             gatt.errcode = 0;
-            spp_recv(input + 3, isize - 3);
+            spp_input(input + 3, isize - 3);
         } else {
             gatt.errcode = ATTR_NOT_FOUND;
         }

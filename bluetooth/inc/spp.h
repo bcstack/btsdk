@@ -17,6 +17,6 @@
 #ifndef _SPP_H_
 #define _SPP_H_
 
-void spp_recv(u8* buffer, u16 len);
+void spp_input(u8* input, u16 isize);
 
 #endif // _SPP_H_

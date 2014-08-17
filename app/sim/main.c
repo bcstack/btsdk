@@ -21,6 +21,11 @@
 #include <libusb.h>
 #endif
 
+void spp_input(u8* input, u16 isize)
+{
+    sys_dumphex("spp input", input, isize);
+}
+
 int main(int argc, char** argv)
 {
     sys_setup();

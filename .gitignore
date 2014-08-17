@@ -24,3 +24,7 @@ app/led/MDK-ARM/obj/*
 app/led/MDK-ARM/lst/*
 
 app/sim/sim
+
+*.pyc
+
+*.p

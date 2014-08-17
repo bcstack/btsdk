@@ -9,7 +9,6 @@
 
   <project>
     <PathAndName>..\mcu\stm32f0\MDK-ARM\mcu_stm32f0.uvproj</PathAndName>
-    <NodeIsExpanded>1</NodeIsExpanded>
     <NodeIsCheckedInBatchBuild>1</NodeIsCheckedInBatchBuild>
   </project>
 

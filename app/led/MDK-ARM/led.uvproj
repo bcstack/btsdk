@@ -361,7 +361,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F051x8,USE_HAL_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\user;..\..\..\bluetooth\inc;..\..\..\board\inc;..\..\..\system\inc</IncludePath>
+              <IncludePath>..\user;..\..\..\bluetooth\inc;..\..\..\board\inc;..\..\..\system\inc;..\..\..\mcu\cmsis\inc;..\..\..\mcu\stm32f0\device\inc;..\..\..\mcu\stm32f0\hal\inc;..\..\..\mcu\stm32f0\user\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>

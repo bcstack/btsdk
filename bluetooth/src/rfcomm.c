@@ -318,7 +318,7 @@ static void user_input(u8 ch, u8* input, u16 isize)
 
     rfcomm.new_credit = 1;
 
-    spp_recv(input, isize);
+    spp_input(input, isize);
 
     RFCOMM_MARK_OUTPUT(ch, RFCOMM_SEND_USER_FLAG);
 }

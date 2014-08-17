@@ -445,11 +445,6 @@
               <FilePath>..\src\sdp.c</FilePath>
             </File>
             <File>
-              <FileName>spp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\spp.c</FilePath>
-            </File>
-            <File>
               <FileName>spp_sdp.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\spp_sdp.c</FilePath>
