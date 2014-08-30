@@ -12,6 +12,7 @@ int main(void)
 {
     board_setup();
     led_setup();
+    bt_reset();
 
     bt_uart_setup(115200);
     bt_setup();

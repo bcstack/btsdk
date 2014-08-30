@@ -45,9 +45,11 @@ void bt_reset( void )
 
     HAL_GPIO_WritePin(BT_RESET_GPIO_PORT, BT_RESET_PIN, GPIO_PIN_RESET);
 
-    HAL_Delay(100);
+    HAL_Delay(10);
 
     HAL_GPIO_WritePin(BT_RESET_GPIO_PORT, BT_RESET_PIN, GPIO_PIN_SET);
+
+    HAL_Delay(500);
 }
 
 void bt_uart_setup(uint32_t baudrate)

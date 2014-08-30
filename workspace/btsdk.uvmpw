@@ -14,6 +14,7 @@
 
   <project>
     <PathAndName>..\board\stm32\MDK-ARM\board_stm32.uvproj</PathAndName>
+    <NodeIsExpanded>1</NodeIsExpanded>
     <NodeIsCheckedInBatchBuild>1</NodeIsCheckedInBatchBuild>
   </project>
 
@@ -30,6 +31,7 @@
   <project>
     <PathAndName>..\app\led\MDK-ARM\led.uvproj</PathAndName>
     <NodeIsActive>1</NodeIsActive>
+    <NodeIsExpanded>1</NodeIsExpanded>
     <NodeIsCheckedInBatchBuild>1</NodeIsCheckedInBatchBuild>
   </project>
 
