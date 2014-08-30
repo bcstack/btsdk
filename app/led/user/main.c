@@ -20,6 +20,8 @@ int main(void)
     gap_reset();
     gap_set_visible(1);
 
+    led_set_color(255, 255, 255, 255);
+
     while (1)
     {
         while (sys_schedule());
